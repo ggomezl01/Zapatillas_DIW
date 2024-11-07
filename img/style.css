@@ -1,0 +1,18 @@
+.carousel-item{
+    max-height: 500px;
+}
+
+
+
+.carousel-item > img {
+    width: 80%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+html{
+    height:100%
+}
+
+footer{
+    margin-top: auto;
+}
