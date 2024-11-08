@@ -9,19 +9,17 @@
     <title>UrbansKick</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
         <div class="container-fluid">
-            
-            <a class="navbar-brand" href="#">UrbanKicks</a>
+           
+            <div id="logo"></div>
+    
+           
     
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Novedades</a>
                     </li>
@@ -46,22 +44,23 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Deportivo</a></li>
                         </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Niño</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Outlet</a>
-                        </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Niño</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Outlet</a>
+                    </li>
                 </ul>
             </div>
-    
-            
-            <div class="d-flex align-items-end">
-                
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Bloque de búsqueda y carrito que permanece a la derecha -->
+            <div class="d-flex align-items-center ms-auto">
                 <form class="d-flex me-3" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar UrbansKick" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -69,11 +68,16 @@
                 <a href="sesion.html">
                     <img src="./img/carrito.png" alt="Carrito" style="height: 40px;">
                 </a>
-                
             </div>
         </div>
     </nav>
     
+    
+
+ 
+
+
+  
 
  
 
@@ -108,169 +112,186 @@
 
    
             
+           
             
 
-            <div class="container">
-                <div class="row">
-                    <h2 class="mt-4">Nuestras ultimas novedades</h2>
-                    <div class="col-sm-4 col-md-4 col-lg-4 ">
-                        <div class="card">
-                            <img src="./img/viejo.png" alt="" >
-                            <div class="card-body">
-                                <h5 class="card-tittle"> t.1965</h5>
-                                <p class="card-text">188€</p>
-                                <div style="text-align: center;">
-                                    <a href="#" class="btn btn-success btn-log">Comprar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="card">
-                        <img src="./img/Oferta/of3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-tittle">Crocks Rayo McQueen </h5>
-                            <p class="card-text">Para reservar</p>
-                            <div style="text-align: center;">
-                                <a href="#" class="btn btn-success btn-log">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-sm-4 col-md-4 col-lg-4">
+      <div id= "pantallas1" class="container">
+        <div class="row">
+            <h2>Nuestras ultimas novedades</h2>
+            <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="card">
-                    <img src="./img/botines.png" alt="" >
-                    <div class="card-body">
-                        <h5 class="card-tittle">Botas XG32</h5>
-                        <p class="card-text"> 199.99€</p>
+                    <img src="./img/nuevos/Field-Trekker-Mid-LaceUp-Trainer-for-Men-in-Brown.png" alt=""  >
+                    <div class="cards-body">
+                        <h5 class="card-tittle"> t.1965</h5>
+                        <p class="card-text">188€</p>
                         <div style="text-align: center;">
                             <a href="#" class="btn btn-success btn-log">Comprar</a>
                         </div>
                     </div>
                 </div>
-
-               </div>
             </div>
-            </div>  
+        
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <div class="card">
+                <img src="./img/nuevos/Timberland-Authentic-Boat-Shoe-for-Men-in-Brown.png" alt="" >
+                <div class="cards-body">
+                    <h5 class="card-tittle">Za5000 </h5>
+                    <p class="card-text">Para reservar</p>
+                    <div style="text-align: center;">
+                        <a href="#" class="btn btn-success btn-log">Reservar</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      <!--Seccion del mes brand new-->
-      <div class="container ">
-        <div class="row">
-            <h3 class="text-center">Ultimas tendencias</h3>
-            <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="./img/ultimo/fondo.jpg" alt="" style="width: 90%;">
+       <div class="col-sm-4 col-md-4 col-lg-4">
+        <div class="card">
+            <img src="./img/nuevos/Sprint-Trekker-Mid-LaceUp-Waterproof-Trainer-for-Men-in-Yellow.png" alt="" >
+            <div class="cards-body">
+                <h5 class="card-tittle">Botas XG32</h5>
+                <p class="card-text"> 199.99€</p>
+                <div style="text-align: center;">
+                    <a href="#" class="btn btn-success btn-log">Comprar</a>
+                </div>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="./img/ultimo/botas.jpg" alt="" style="width: 60%;" >
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4">Las botas de montaña UrbanKick están diseñadas para desafiar cualquier terreno, combinando resistencia y estilo. Con su suela de tracción avanzada y membrana impermeable, ofrecen estabilidad y protección en todo clima. Su acolchado y soporte reforzado brindan comodidad y seguridad en largas caminatas. Cada paso con UrbanKick es firme y confiable, ideal para quienes buscan aventuras sin límites. 
-
-                <p></p>UrbanKick: Preparado para conquistar cualquier desafío.</div>
         </div>
-        <h3 class="text-center">Botas mastodonte 3000 </h3>
-        <div style="text-align: center;">
+
+       </div>
+    </div>
+    </div>  
+</div>
+<!--Seccion del mes brand new-->
+<div class="container ">
+<div id="marco" class="row">
+    <h3 id="mes" class="text-center">Ultimas tendencias</h3>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        <img src="./img/nuevos/Britton-Road-Mid-LaceUp-Waterproof-Boot-for-Men-in-Dark-Brown.png" alt="" style="width: 50%;">
+        <h3 class="">Botas mastodonte 3000 </h3>
+        <div >
             <a href="#" class="btn btn-success btn-log">Comprar</a>
         </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        <img src="./img/nuevos/Britton-Road-Mid-LaceUp-Waterproof-Boot-for-Men-in-Yellow.png" alt="" style="width: 50%;" >
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">Las botas de montaña UrbanKick están diseñadas para desafiar cualquier terreno, combinando resistencia y estilo. Con su suela de tracción avanzada y membrana impermeable, ofrecen estabilidad y protección en todo clima. Su acolchado y soporte reforzado brindan comodidad y seguridad en largas caminatas. Cada paso con UrbanKick es firme y confiable, ideal para quienes buscan aventuras sin límites. 
 
+        <p></p>UrbanKick: Preparado para conquistar cualquier desafío.</div>
+</div>
+
+</div>
+
+
+<!--Categorias-->
+<div class="container-fluid  py-5 text-center">
+<div class="row">
+    <H2>Categoria</H2>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+       <div id="cap">
+        <img id="dest" src="./img/nuevos/deportivas.png" class="rounded-circle" alt="" >
+        <div class="tittle"> <h5>Deportivas</h5>
+            <div>
+                <a href="#" id="buton" class="btn btn-success btn-log">Acceder</a>
+        
+            </div>
+            
+        </div>
+       </div>
       
-      <!--Categorias-->
-      <div class="container-fluid bg-light py-5 text-center">
-        <div class="row">
-            <H2>Categoria</H2>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-                <img src="./img/zapatillas-deportivas-para-hombre-de-la-marca-pepe-jeans-en-color-grisazul-800x800_9vvoth9.jpg" alt="" style="width: 50%;">
-                <div class="tittle">Deportivas
-                    <p></p>
-                    <button>Acceder</button>
-                </div>
-            </div>   
-            <div class="col-sm-6 col-md-3 col-lg-3">
-           
-                <img src="./img/zapatos-casual-hombre-dospies-a1023.jpg" alt="" style="width: 50%;">
-                <div class="tittle">Casual
-                    <p></p>
-                    <button>Acceder</button>
-                </div></div>   
-            <div class="col-sm-6 col-md-3 col-lg-3">
-                <img src="./img/znb0coz-1.png" alt="" style="width: 50%;">
-                <div class="tittle">Formales
-                    <p></p>
-                    <button>Acceder</button>
-                </div>
-            </div>   
-            <div class="col-sm-6 col-md-3 col-lg-3">
-                <img src="./img/ultimo/botas.jpg" alt="" style="width: 50%;">
-                <div class="tittle">Botas
-                    <p></p>
-                    <button>Acceder</button>
-                </div>
+    </div>   
+    <div class="col-sm-6 col-md-3 col-lg-3">
+   
+        <img id="dest" src="./img/nuevos/casual (2).png" class="rounded-circle" alt="" >
+        <div class="tittle"> <h5>Casual</h5>
+            <div>
+                <a href="#" id="buton" class="btn btn-success btn-log">Acceder</a>
+       
             </div>
- 
-        </div>    
-    </div>
-
-    <!--Ofertas-->
-    <div class="container">
-        <div class="row">
-
+            
+        </div></div>   
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        <img src="./img/nuevos/formal.png" class="rounded-circle" alt="" style="width: 50%;">
+        <div class="tittle"><h5>Formal</h5>
+            
+            
+            <div>
+                <a href="#" id="buton" class="btn btn-success btn-log">Acceder</a>
+            </div>
         </div>
-
-    </div>
-    
-  </div>
-      <!--Marcas colabor fotos redondas-->
-      <div class="container-fluid bg-light py-5 text-center">
-        <div class="row">
-            <h3>Marcas con las que trabajamos</h3>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="./img/vans-logo-google.png" class="rounded-circle" alt="" style="width: 50%;">
-                </div>   
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <img src="./img/timberland-1.png" class="rounded-circle" alt="" style="width: 50%;">
-                </div>   
-     
-
-        </div>    
-    </div>
-      <!--Footer-->
-      <footer>
-        <div class="container-fluid bg-dark p-5 text-center ">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="text-decoration-none text-success">Categorias</a>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Ofertas</a></div>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Destacados</a></div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="text-decoration-none text-success">Atención al cliente</a>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="text-decoration-none text-success">Información sobre la marca</a>
-                    
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <a href="#" class="text-decoration-none text-success">Redes sociales</a>
-                </div>
+    </div>   
+    <div class="col-sm-6 col-md-3 col-lg-3">
+        <img src="./img/nuevos/botas.png" class="rounded-circle" alt="" style="width: 50%;">
+        <div class="tittle"><h5>Botas</h5>
+            <div>
+                <a href="#" id="buton" class="btn btn-success btn-log">Comprar</a>
+       
             </div>
-            <div class="row mt-3">
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <p class="h5 text-success">Productos</p>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Hombres</a></div>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Mujeres</a></div>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Niños</a></div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <p class="h5 text-success">Usuario</p>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Cuenta</a></div>
-                    <div class="mb-2"><a class="text-decoration-none text-success" href="#">Carrito</a></div>
-                </div>
             </div>
-            <p class="text-success mt-3">
-                @Derechos oficiales de copyright de UrbanKicks
-            </p>
+    </div>
+
+</div>    
+</div>
+
+<!--Ofertas-->
+<div class="container">
+<div class="row">
+
+</div>
+
+</div>
+
+</div>
+<!--Marcas colabor fotos redondas-->
+<div class="container-fluid  py-5 text-center">
+<div class="row">
+    <h3>Marcas con las que trabajamos</h3>
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <img src="./img/vans-logo-google.png" class="rounded-circle" alt="" style="width: 50%;"><p></p>
+        Vans</div>   
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <img src="./img/timberland-1.png" class="rounded-circle" alt="" style="width: 50%;"><p></p>
+        Timberland</div>   
+
+
+</div>    
+</div>
+<!--Footer-->
+<footer>
+<div class="container-fluid bg-dark p-5 text-center ">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <a href="#" class="text-decoration-none text-success">Categorias</a>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Ofertas</a></div>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Destacados</a></div>
         </div>
-    </footer>
-    
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <a href="#" class="text-decoration-none text-success">Atención al cliente</a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <a href="#" class="text-decoration-none text-success">Información sobre la marca</a>
+            
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <a href="#" class="text-decoration-none text-success">Redes sociales</a>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <p class="h5 text-success">Productos</p>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Hombres</a></div>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Mujeres</a></div>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Niños</a></div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+            <p class="h5 text-success">Usuario</p>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Cuenta</a></div>
+            <div class="mb-2"><a class="text-decoration-none text-success" href="#">Carrito</a></div>
+        </div>
+    </div>
+    <p class="text-success mt-3">
+        @Derechos oficiales de copyright de UrbanKicks
+    </p>
+</div>
+</footer>
+
 </body>
 </html>

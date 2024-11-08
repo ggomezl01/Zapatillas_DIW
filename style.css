@@ -1,18 +1,61 @@
-.carousel-item{
-    max-height: 500px;
+#logo {
+    width: 100px; 
+    height: 50px; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+@media only screen and (max-width: 576px) {
+    #logo {
+        background-image: url('./img/nuevos/logomovil.jpg');
+        width: 50px; 
+        height: 25px; 
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    #logo {
+        background-image: url('./img/nuevos/logopc.jpg');
+        width: 100px; 
+        height: 50px; 
+    }
+}
+body{
+    background-color: #A89561;
+}
+
+#dest{
+    align-content: center;
+}
+
+#marco{
+    margin-top: 50px;
+    border: 2px solid #65743A;
+}
+
+#buton{
+    margin-bottom: 10px;
 }
 
 
-
-.carousel-item > img {
-    width: 80%; 
-    height: auto; 
-    margin: 0 auto; 
+.card-body , .tittle{
+    background-color: #524632;
+    margin-left: 60px;
+    margin-right: 60px;
 }
-html{
-    height:100%
+.tittle{
+    margin-top: 20px;
+    padding: 15px; 
+    border-radius: 10px
+}
+.cards-body{
+    background-color: #524632;
 }
 
-footer{
-    margin-top: auto;
+h5{
+    color:#6a8d73;
+}
+p{
+    color:#65743A;
 }
