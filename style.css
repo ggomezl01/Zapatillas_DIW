@@ -27,6 +27,7 @@ body{
 
 #dest{
     align-content: center;
+    margin-bottom: 25px;
 }
 
 #marco{
@@ -83,18 +84,23 @@ h2{
 #carouselExampleIndicators{
     margin-bottom: 35px;
 }
-#idd{
-    display: flex; 
-justify-content: center; 
-align-items: center; 
-height: 100vh; 
+.idd1{
+    
+margin: 20px;
+  
 }
+.idd2{
+    
+    margin: 20px;
+    
+  }
 #asd{
     margin-bottom: 60px;
-    margin-top:60px;
-    width: 150%;
+    margin-left: 40px;
+    margin-top:10px;
+    width: 30%;
 height: 40%;
-text-align: center;
+
 }
 #mes{
     margin-bottom: 30px;
@@ -103,3 +109,4 @@ text-align: center;
 footer{
     margin-top: 30px;
 }
+
