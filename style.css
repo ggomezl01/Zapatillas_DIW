@@ -25,13 +25,13 @@ body{
     background-color: #A89561;
 }
 
-#dest{
+#imgCate{
     align-content: center;
     margin-bottom: 25px;
     transition: transform 0.3s ease;
 }
 
-#dest:hover{
+#imgCate:hover{
     transform: scale(1.2);
 }
 
@@ -89,17 +89,17 @@ h2{
 #carouselExampleIndicators{
     margin-bottom: 35px;
 }
-.idd1{
+.img1{
     
 margin: 20px;
   
 }
-.idd2{
+.img2{
     
     margin: 20px;
     
   }
-#asd{
+#buttonComprar{
     margin-bottom: 60px;
     margin-left: 40px;
     margin-top:10px;
