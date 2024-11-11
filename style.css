@@ -116,4 +116,43 @@ footer{
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
+  /* Configuración del contenedor principal */
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+.contenido{
+    flex: 1;;
+}
+
+#foot{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#buton{
+     margin-top: 34px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+#aff{
+    color: #524632 !important;
+    margin-top: 30px;
+}
+#classy {
+    border: 2px solid #65743A !important; 
+    padding: 15px; 
+    border-radius: 5px;
+  }
