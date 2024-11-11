@@ -1,14 +1,15 @@
 #logo {
     width: 100px;
     height: 50px;
-    background-image: url('./img/nuevos/logopc.jpg');
+    background-image: url('../img/nuevos/logopc.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 body {
-    background-color: #A89561;
+    background-color: #b7a580;
+    font-family: Arial, sans-serif;
 }
 
 #imgCate {
@@ -17,13 +18,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-#imgCate:hover {
-    transform: scale(1.2);
-}
-
 #marco {
     margin-top: 50px;
-    border: 2px solid #65743A;
+    border: 2px solid #6A5D42;
 }
 
 #buton {
@@ -38,7 +35,7 @@ body {
     margin-right: 60px;
 }
 
-.tittle {
+.title {
     margin-top: 20px;
     padding: 15px;
     border-radius: 10px
@@ -57,7 +54,7 @@ p {
 }
 
 .card-text,
-.card-tittle {
+.card-title {
     margin-top: 5px;
     text-align: center;
 }
@@ -98,19 +95,22 @@ h2 {
 
 #buttonComprar {
     margin-bottom: 60px;
-    margin-left: 40px;
     margin-top: 10px;
     width: 30%;
     height: 40%;
-
+    background-color: #6A5D42;
+    border: none;
 }
 
 #mes {
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-footer {
+footer *{
     margin-top: 30px;
+    background-color: #F5E5C0;
+    color: #6A5D42;
 }
 
 
@@ -178,7 +178,7 @@ body {
 
 .navbar-nav .nav-link {
     color: #6A5D42;
-    font-weight: 500;
+    font-weight: bold;
     transition: color 0.3s;
 }
 
@@ -207,4 +207,66 @@ body {
 
 .iconoCompra {
     margin-right: 70px;
+}
+
+.tarjeta-producto {
+    border: 1px solid #A89561;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFF8F1;
+    transition: transform 0.2s;
+}
+
+.tarjeta-producto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta-producto h3 {
+    font-size: 1.2em;
+    color: #524632;
+}
+
+.precio-antiguo {
+    text-decoration: line-through;
+    color: #A89561;
+}
+
+.precio-nuevo {
+    color: #DA667B;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tarjeta-categoria {
+    border: 1px solid #A89561;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFF8F1;
+    max-width: 70%;
+}
+
+.tarjeta-categoria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.tarjeta-categoria h3 {
+    font-size: 1.2em;
+    color: #524632;
+}
+
+.tarjetasCategoria{
+    margin-left: 5%;
 }
