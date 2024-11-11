@@ -1,117 +1,115 @@
 #logo {
-    width: 100px; 
-    height: 50px; 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    width: 100px;
+    height: 50px;
+    background-image: url('./img/nuevos/logopc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 576px) {
-    #logo {
-        background-image: url('./img/nuevos/logomovil.jpg');
-        width: 50px; 
-        height: 25px; 
-    }
-}
-
-@media only screen and (min-width: 577px) {
-    #logo {
-        background-image: url('./img/nuevos/logopc.jpg');
-        width: 100px; 
-        height: 50px; 
-    }
-}
-body{
+body {
     background-color: #A89561;
 }
 
-#imgCate{
+#imgCate {
     align-content: center;
     margin-bottom: 25px;
     transition: transform 0.3s ease;
 }
 
-#imgCate:hover{
+#imgCate:hover {
     transform: scale(1.2);
 }
 
-#marco{
+#marco {
     margin-top: 50px;
     border: 2px solid #65743A;
 }
 
-#buton{
+#buton {
     margin-bottom: 10px;
 }
 
 
-.card-body , .tittle{
+.card-body,
+.tittle {
     background-color: #524632;
     margin-left: 60px;
     margin-right: 60px;
 }
-.tittle{
+
+.tittle {
     margin-top: 20px;
-    padding: 15px; 
+    padding: 15px;
     border-radius: 10px
 }
-.cards-body{
+
+.cards-body {
     background-color: #524632;
 }
 
-h5{
-    color:#6a8d73;
-}
-p{
-    color:#65743A;
+h5 {
+    color: #6a8d73;
 }
 
-.card-text, .card-tittle{
+p {
+    color: #65743A;
+}
+
+.card-text,
+.card-tittle {
+    margin-top: 5px;
     text-align: center;
 }
 
 
-#butn{
+#butn {
     margin-bottom: 20px;
 }
-#a{
+
+#a {
     width: 200px;
 }
 
-#parrafo{
+#parrafo {
     color: black;
 }
 
-h2{
+h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#carouselExampleIndicators{
+
+#carouselExampleIndicators {
     margin-bottom: 35px;
 }
-.img1{
-    
-margin: 20px;
-  
-}
-.img2{
-    
+
+.img1 {
+
     margin: 20px;
-    
-  }
-#buttonComprar{
-    margin-bottom: 60px;
-    margin-left: 40px;
-    margin-top:10px;
-    width: 30%;
-height: 40%;
 
 }
-#mes{
+
+.img2 {
+
+    margin: 20px;
+
+}
+
+#buttonComprar {
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 30%;
+    height: 40%;
+
+}
+
+#mes {
     margin-bottom: 30px;
 }
 
-footer{
+footer {
     margin-top: 30px;
 }
 
@@ -120,39 +118,93 @@ footer{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  /* Configuración del contenedor principal */
-  html, body {
+/* Configuración del contenedor principal */
+html,
+body {
     height: 100%;
-  }
+}
 
-  body {
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-.contenido{
-    flex: 1;;
 }
 
-#foot{
+.contenido {
+    flex: 1;
+    ;
+}
+
+#foot {
     text-align: center;
     padding: 10px 0;
 }
 
-#buton{
-     margin-top: 34px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
+#buton {
+    margin-top: 34px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-#aff{
+
+#aff {
     color: #524632 !important;
     margin-top: 30px;
 }
+
 #classy {
-    border: 2px solid #65743A !important; 
-    padding: 15px; 
+    border: 2px solid #65743A !important;
+    padding: 15px;
     border-radius: 5px;
-  }
+}
+
+.navbar {
+    background-color: #F5E5C0;
+    color: #6A5D42;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('zapatillas/logoEscritorio.png');
+    height: 57px;
+}
+
+.navbar-nav .nav-link {
+    color: #6A5D42;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #DA667B;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #6A5D42;
+    border: none;
+    color: #DA667B;
+}
+
+.btn-outline-success {
+    background-color: #BA505F;
+    border-color: #BA505F;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.iconoCompra {
+    margin-right: 70px;
+}
