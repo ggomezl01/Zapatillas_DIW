@@ -1,1 +1,1 @@
-# Zapatillas_DIW
+Trabajo hecho por Elisabeth Santolaya, Óscar Von Ruepprecht y Gonzalo Gómez
