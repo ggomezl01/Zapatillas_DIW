@@ -28,6 +28,11 @@ body{
 #dest{
     align-content: center;
     margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+#dest:hover{
+    transform: scale(1.2);
 }
 
 #marco{
@@ -109,4 +114,6 @@ height: 40%;
 footer{
     margin-top: 30px;
 }
+
+
 
